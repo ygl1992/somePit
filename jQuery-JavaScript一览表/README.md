@@ -405,6 +405,23 @@
 	document.querySelector('#box').clientLeft;
 	document.querySelector('#box').clienttop;
 	
+### 相对距离
+	// jQuery
+	// 对象距离window的左边距、上边距
+	$('#box').offset().left;
+	$('#box').offset().top;
+
+	// JavaScript
+	// 对象距离最近定位属性的父级的左边距、上边距，如果都没有定位属性那默认为window
+	document.querySelector('#box').offsetLeft;
+	document.querySelector('#box').offsetTop;
+
+### 
+	// 对象style属性上的left,top值（如果left，top都有值的情况）
+	$('#box').position().left;
+	$('#box').position().top;
+
+## 未完待续
 
 ## 参考
 yrq110的[jQuery->JavaScript一览表](http://yrq110.me/2017/09/15/20170915-jquery-js-table/)
