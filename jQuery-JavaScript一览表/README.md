@@ -73,7 +73,7 @@
 
 ### 属性选择
 	// jQuery
-	$('[id], [class="first"]').css('color', 'red');
+	$('[class="first"]').css('color', 'red');
 	// [attribute!="..."]                 -> 选择指定属性不等于这个值的元素
 	// [attribute^="..."]                 -> 选择指定属性是以给定字符串开始的元素
 	// [attribute$="..."]                 -> 选择指定属性是以给定字符串结尾的元素
@@ -81,7 +81,7 @@
 	// [attribute="..."][attribute="..."] -> 设置多个指定属性
 	
 	// JavaScript
-	document.querySelectorAll('[id], [class="first"]').forEach(el => {
+	document.querySelectorAll('[class="first"]').forEach(el => {
 	  	el.style.color = 'red';
 	});
 
