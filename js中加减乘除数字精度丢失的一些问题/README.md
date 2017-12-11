@@ -30,3 +30,20 @@ toFixed四舍五入并不是真正的四舍五入
 1.333335.toFixed(5)  // 1.33333 错误	<br />
 1.3333335.toFixed(6) // 1.333333 错误 <br />
 IE浏览器下这些都是正确的
+
+
+### 第三方插件库
+[mathjs](https://github.com/josdejong/mathjs)
+
+1.2 / (3.3 + 1.7) <br />
+	<span style="color:#c00; margin-left:30px">0.24</span> <br />
+a = 5.08 cm + 2 inch <br />
+	<span style="color:#c00; margin-left:30px">10.16 cm</span> <br />
+a to inch <br />
+	<span style="color:#c00; margin-left:30px">4 inch </span> <br />
+sin(90 deg) <br />
+	<span style="color:#c00; margin-left:30px">1 </span> <br />
+f(x, y) = x ^ y <br />
+	<span style="color:#c00; margin-left:30px">f(x, y) </span> <br />
+f(2, 3) <br />
+	<span style="color:#c00; margin-left:30px">8 <br /></span>
